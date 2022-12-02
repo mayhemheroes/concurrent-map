@@ -1,0 +1,5 @@
+image: tngo04/concurrent-map:latest
+project: tngo04/concurrent-map
+target: fuzz_model
+cmds:
+  - cmd: /fuzz_model
